@@ -11,4 +11,9 @@ router.get('/credits', (req, res, next) => {
     res.render('credits');
 });
 
+// Quizzes page.
+router.get('/quizzes', (req, res, next) => {
+    res.render('quizzes');
+});
+
 module.exports = router;
